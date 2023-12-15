@@ -9,15 +9,15 @@ from datetime import datetime
 import pygame
 
 
-ilon_image = face_recognition.load_image_file("ImagesAttendance/ilon.jpg")
-ilon_face_encoding = face_recognition.face_encodings(ilon_image)[0]
+artur_image = face_recognition.load_image_file("ImagesAttendance/artur.jpg")
+artur_face_encoding = face_recognition.face_encodings(artur_image)[0]
 
 known_face_encodings = [
-    ilon_face_encoding
+    artur_face_encoding
 
 ]
 known_face_names = [
-    "ELON"
+    "Artur"
 ]
 
 
